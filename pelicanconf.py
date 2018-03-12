@@ -42,7 +42,7 @@ PLUGINS = ['tag_cloud', 'render_math', 'liquid_tags.img', 'liquid_tags.video',
 # In Python 3, no need for the .decode('utf-8')
 EXTRA_HEADER = open('_nb_header.html').read()
 
-STATIC_PATHS = ['js', 'css', 'images', 'CNAME']
+STATIC_PATHS = ['js', 'css', 'images', 'CNAME', 'notebooks']
 
 TAG_CLOUD_STEPS = 50
 TAG_CLOUD_MAX_ITEMS = 20
