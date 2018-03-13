@@ -75,11 +75,12 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+SOCIAL = (
+    ('github', 'https://github.com/benlindsay'),
+    ('linkedin', 'https://www.linkedin.com/in/benjlindsay/'),
+    ('email', 'mailto:benjlindsay+website@gmail.com'),
+    ('twitter', 'https://twitter.com/ben_j_lindsay'),
+)
 
 DISQUS_SITENAME = 'benlindsay'
 
