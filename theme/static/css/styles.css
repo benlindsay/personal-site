@@ -2,6 +2,10 @@
     display: none;
 }
 
+.entry-content p {
+    margin-bottom: 9px;
+}
+
 #sidebar .nav-list li a {
     padding-top: 5px;
     padding-right: 10px;
