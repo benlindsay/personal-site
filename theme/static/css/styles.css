@@ -1,3 +1,8 @@
 .prompt {
     display: none;
 }
+
+#profile-pic {
+    width: 100%;
+    padding-bottom: 10px;
+}

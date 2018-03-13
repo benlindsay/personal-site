@@ -1,4 +1,8 @@
 <ul class="nav nav-list">
+{% if BIO %}
+<img src="/images/profile.jpg" alt="Ben Lindsay" id="profile-pic">
+<p>{{ BIO }}</p>
+{% endif %}
 {% if LINKS %}
 <li class="nav-header"><h4><i class="icon-external-link"></i>blogroll</h4></li>
 {% for name, link in LINKS %}
