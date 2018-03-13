@@ -4,9 +4,9 @@
 <p>{{ BIO }}</p>
 {% endif %}
 {% if LINKS %}
-<li class="nav-header"><h4><i class="icon-external-link"></i>blogroll</h4></li>
+<li class="nav-header"><h4><i class="icon-external-link"></i>external links</h4></li>
 {% for name, link in LINKS %}
-    <li><a href="{{ link }}"><i class="icon-external-link"></i>{{ name }}</a></li>
+    <li><a href="{{ link }}">{{ name }}</a></li>
 {% endfor %}
 {% endif %}
 {% if SOCIAL %}
