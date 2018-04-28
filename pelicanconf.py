@@ -52,6 +52,8 @@ PLUGINS = ['tag_cloud', 'render_math', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.include_code',
            'liquid_tags.notebook', 'i18n_subsites']
 
+PYGMENTS_STYLE = 'default'
+
 STATIC_PATHS = ['js', 'css', 'images', 'CNAME', 'notebooks']
 
 TAG_CLOUD_STEPS = 50
