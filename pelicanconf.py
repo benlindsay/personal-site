@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+from os.path import exists
+
 AUTHOR = u'Ben Lindsay'
 SITENAME = u'Ben Lindsay'
 OUTPUT_PATH = 'output/'
@@ -34,6 +36,9 @@ I enjoy hacking around with new tools and finding ways to automate things.
 I am an avid Python user and a diehard Vim fan. I'll be graduating in 2019.
 """
 
+I18N_TEMPLATES_LANG = 'en'
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+
 MARKUP = ('rst', 'md', 'ipynb')
 # put pages in the root directory
 PAGE_SAVE_AS = '{slug}/index.html'
@@ -43,11 +48,7 @@ PLUGIN_PATHS = ['plugins', '../pelican-plugins']
 # https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags#liquid-style-tags
 PLUGINS = ['tag_cloud', 'render_math', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.include_code',
-           'liquid_tags.notebook']
-
-# https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags#ipython-notebooks
-# In Python 3, no need for the .decode('utf-8')
-EXTRA_HEADER = open('_nb_header.html').read()
+           'liquid_tags.notebook', 'i18n_subsites']
 
 STATIC_PATHS = ['js', 'css', 'images', 'CNAME', 'notebooks']
 
