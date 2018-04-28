@@ -3,3 +3,4 @@ __pycache__
 *.pid
 *.pyc
 .ipynb_checkpoints
+theme

@@ -61,7 +61,7 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 USE_FOLDER_AS_CATEGORY = True
 MENUITEMS = [('Blog', '/blog/'), ('Projects', '/projects/')]
-THEME = "theme"
+THEME = '../pelican-themes/pelican-bootstrap3'
 
 PATH = 'content'
 
