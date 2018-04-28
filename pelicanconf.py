@@ -39,7 +39,7 @@ MARKUP = ('rst', 'md', 'ipynb')
 PAGE_SAVE_AS = '{slug}/index.html'
 PAGE_URL = '{slug}/'
 
-PLUGIN_PATHS = ['plugins']
+PLUGIN_PATHS = ['plugins', '../pelican-plugins']
 # https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags#liquid-style-tags
 PLUGINS = ['tag_cloud', 'render_math', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.include_code',
