@@ -2,3 +2,4 @@ output/
 __pycache__
 *.pid
 *.pyc
+.ipynb_checkpoints
