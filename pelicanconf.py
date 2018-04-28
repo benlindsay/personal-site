@@ -79,7 +79,7 @@ AUTHOR_FEED_RSS = None
 SOCIAL = (
     ('github', 'https://github.com/benlindsay'),
     ('linkedin', 'https://www.linkedin.com/in/benjlindsay/'),
-    ('email', 'mailto:benjlindsay+website@gmail.com'),
+    ('email', 'mailto:benjlindsay+website@gmail.com', 'envelope'),
     ('twitter', 'https://twitter.com/ben_j_lindsay'),
 )
 
