@@ -63,6 +63,7 @@ TAG_CLOUD_BADGE = True
 
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_ARTICLE_INFO_ON_INDEX = True
 USE_FOLDER_AS_CATEGORY = True
 MENUITEMS = [('Blog', '/blog/'), ('Projects', '/projects/')]
 THEME = '../pelican-themes/pelican-bootstrap3'
