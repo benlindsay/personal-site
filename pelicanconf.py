@@ -50,7 +50,7 @@ PLUGIN_PATHS = ['plugins', '../pelican-plugins']
 # https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags#liquid-style-tags
 PLUGINS = ['tag_cloud', 'render_math', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.include_code',
-           'liquid_tags.notebook', 'i18n_subsites']
+           'liquid_tags.notebook', 'i18n_subsites', 'series']
 
 PYGMENTS_STYLE = 'default'
 
