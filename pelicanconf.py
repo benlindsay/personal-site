@@ -34,7 +34,7 @@ ABOUT_ME = """
 Hi! I'm Ben. I'm a PhD student at UPenn, data science enthusiast, and
 co-founder of <a href="http://penndsg.com/">Penn Data Science Group</a>.
 I enjoy hacking around with new tools and finding ways to automate things.
-I am an avid Python user and a diehard Vim fan. I'll be graduating in 2019.
+I am an avid Python user and a diehard Vim nerd. I'll be graduating in 2019.
 """
 ABOUT_ME_HEADER = ''
 
