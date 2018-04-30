@@ -1,6 +1,6 @@
 Title: Running Jupyter Lab Remotely
 Date: 2018-04-30 11:19:27
-Tags: bash, jupyter, tmux, ssh
+Tags: bash, jupyter, tmux, ssh, productivity
 
 I'm a huge fan of [Jupyter Notebooks](http://jupyter.org/), and I was very excited when I found out about Jupyter Lab, which provides a much more comprehensive user experience around Jupyter Notebooks. [Other](https://towardsdatascience.com/jupyter-notebooks-are-breathtakingly-featureless-use-jupyter-lab-be858a67b59d) [posts](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906) have covered in more detail why we should switch to using Jupyter Lab instead, so I won't talk about that here.
 
