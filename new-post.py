@@ -4,11 +4,13 @@
 # Copyright (c) 2018 Ben Lindsay <benjlindsay@gmail.com>
 
 from datetime import datetime
+from os import environ
 from os.path import basename
 from os.path import exists
 from os.path import join
 from shutil import copyfile
 from slugify import slugify
+from subprocess import call
 import sys
 
 now = datetime.now()
@@ -49,6 +51,7 @@ post_template = (
 """Title: {}
 Date: {}
 # Series:
+# Status: draft
 # Tags:
 {}
 """
@@ -106,5 +109,12 @@ if exists(file_path):
         print("OK, I won't overwrite. Exiting.")
         exit(1)
 
+print("Writing to {}:".format(file_path))
+
 with open(file_path, 'w') as f:
     f.write(post)
+
+print("Opening {}:".format(file_path))
+
+editor = environ.get('EDITOR', 'vim')
+call([editor, file_path])
