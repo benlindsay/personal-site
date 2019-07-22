@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - python=3.7
-  - markdown
   - jupyter
+  - markdown==2.6.11 # 3.0 deprecates safe keyword, breaking change
   - pelican==3.7.1
+  - slugify
