@@ -31,10 +31,11 @@ AUTHORS_SAVE_AS = ''
 
 AVATAR = "images/profile.jpg"
 ABOUT_ME = """
-Hi! I'm Ben. I'm a PhD student at UPenn, data science enthusiast, and
-co-founder of <a href="http://penndsg.com/">Penn Data Science Group</a>.
-I enjoy hacking around with new tools and finding ways to automate things.
-I am an avid Python user and a diehard Vim nerd. I'll be graduating in 2019.
+Hi! I'm Ben. I'm a PhD student at UPenn, data science enthusiast, lifelong
+learner, avid pythonista, and co-founder of
+<a href="http://penndsg.com/">Penn Data Science Group</a>.
+I'm defending in August, 2019, and I'm actively searching for a job in data
+science/analytics near Minneapolis, Minnesota. Feel free to reach out via email.
 """
 ABOUT_ME_HEADER = ''
 
