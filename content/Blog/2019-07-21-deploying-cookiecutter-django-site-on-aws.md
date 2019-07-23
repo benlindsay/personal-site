@@ -2,10 +2,10 @@ Title: Deploying a Cookiecutter Django Site on AWS
 Date: 2019-07-23 11:00:00
 Tags: aws, django, docker, python
 
-WARNING #1: This post involves graphic AWS content. If you suffer from Post-AWS
+**WARNING #1**: This post involves graphic AWS content. If you suffer from Post-AWS
 Stress Disorder, read with caution and take care of yourself out there.
 
-WARNING #2: Following these steps may incur some small charges on AWS even if
+**WARNING #2**: Following these steps may incur some small charges on AWS even if
 you think you're on the "Free Tier". Keep an eye on your billing dashboard and
 terminate all EC2 instances and delete Elastic IPs once you're done with them.
 For reference though, my billing forecast shows $1.38 for the month of July
